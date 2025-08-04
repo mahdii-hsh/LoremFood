@@ -1,0 +1,392 @@
+{
+  "foods": [
+    {
+      "id": 101,
+      "category_id": 1,
+      "name": "قورمه سبزی",
+      "ingredients": ["لوبیا قرمز", "سبزی قورمه", "گوشت گوسفند", "لیمو عمانی"],
+      "cooking_time": 120,
+      "popular_in": ["تمام ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 102,
+      "category_id": 1,
+      "name": "چلو کباب",
+      "ingredients": ["برنج", "گوشت گوساله", "زعفران", "کره"],
+      "cooking_time": 90,
+      "popular_in": ["تهران", "اصفهان"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 103,
+      "category_id": 1,
+      "name": "فسنجان",
+      "ingredients": ["گردو", "رب انار", "مرغ یا گوشت", "پیاز"],
+      "cooking_time": 150,
+      "popular_in": ["شمال ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 104,
+      "category_id": 1,
+      "name": "آش رشته",
+      "ingredients": ["رشته آش", "حبوبات", "سبزی آش", "کشک"],
+      "cooking_time": 180,
+      "popular_in": ["سراسر ایران"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 105,
+      "category_id": 1,
+      "name": "میرزا قاسمی",
+      "ingredients": ["بادمجان", "گوجه فرنگی", "سیر", "تخم مرغ"],
+      "cooking_time": 45,
+      "popular_in": ["گیلان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 201,
+      "category_id": 2,
+      "name": "پیتزا",
+      "ingredients": ["خمیر پیتزا", "پنیر موزارلا", "سس گوجه", "قارچ"],
+      "cooking_time": 30,
+      "popular_in": ["سراسر جهان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 202,
+      "category_id": 2,
+      "name": "همبرگر",
+      "ingredients": ["نان همبرگر", "گوشت چرخ کرده", "پنیر", "سبزیجات"],
+      "cooking_time": 15,
+      "popular_in": ["آمریکا", "اروپا"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 203,
+      "category_id": 2,
+      "name": "سیب زمینی سرخ کرده",
+      "ingredients": ["سیب زمینی", "نمک", "روغن"],
+      "cooking_time": 20,
+      "popular_in": ["جهان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 204,
+      "category_id": 2,
+      "name": "ناتسو",
+      "ingredients": ["نان تست", "پنیر چدار", "سس گوجه"],
+      "cooking_time": 10,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 205,
+      "category_id": 2,
+      "name": "هات داگ",
+      "ingredients": ["نان مخصوص", "سوسیس", "سس خردل", "پیاز"],
+      "cooking_time": 10,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 301,
+      "category_id": 3,
+      "name": "سالاد تبوله",
+      "ingredients": ["بلغور", "جعفری", "نعنا", "گوجه فرنگی"],
+      "cooking_time": 20,
+      "popular_in": ["خاورمیانه"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 302,
+      "category_id": 3,
+      "name": "دلمه برگ مو",
+      "ingredients": ["برگ مو", "برنج", "عدس", "سبزیجات"],
+      "cooking_time": 90,
+      "popular_in": ["آذربایجان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 303,
+      "category_id": 3,
+      "name": "فالافل",
+      "ingredients": ["نخود", "جعفری", "سیر", "ادویه"],
+      "cooking_time": 30,
+      "popular_in": ["خاورمیانه"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 304,
+      "category_id": 3,
+      "name": "رَتاتوی",
+      "ingredients": ["بادمجان", "کدو", "گوجه فرنگی", "سبزیجات معطر"],
+      "cooking_time": 60,
+      "popular_in": ["فرانسه"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 401,
+      "category_id": 4,
+      "name": "میگو پلو",
+      "ingredients": ["برنج", "میگو", "سبزیجات", "ادویه"],
+      "cooking_time": 60,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 402,
+      "category_id": 4,
+      "name": "قلیه ماهی",
+      "ingredients": ["ماهی", "تمر هندی", "سبزیجات معطر"],
+      "cooking_time": 60,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 403,
+      "category_id": 4,
+      "name": "سوشی",
+      "ingredients": ["ماهی خام", "برنج", "جلبک دریایی", "واسابی"],
+      "cooking_time": 40,
+      "popular_in": ["ژاپن"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 404,
+      "category_id": 4,
+      "name": "کیک ماهی",
+      "ingredients": ["ماهی سفید", "سیب زمینی", "پیاز", "تخم مرغ"],
+      "cooking_time": 50,
+      "popular_in": ["شمال ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 501,
+      "category_id": 5,
+      "name": "کباب بختیاری",
+      "ingredients": ["گوشت گوسفند", "مرغ", "پیاز", "ادویه مخصوص"],
+      "cooking_time": 45,
+      "popular_in": ["چهارمحال و بختیاری"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 502,
+      "category_id": 5,
+      "name": "جوجه کباب",
+      "ingredients": ["مرغ", "ماست", "زعفران", "روغن"],
+      "cooking_time": 40,
+      "popular_in": ["ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 503,
+      "category_id": 5,
+      "name": "کباب ترکی",
+      "ingredients": ["گوشت چرخ کرده", "پیاز", "فلفل", "ادویه"],
+      "cooking_time": 35,
+      "popular_in": ["ترکیه"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 504,
+      "category_id": 5,
+      "name": "کباب چنجه",
+      "ingredients": ["گوشت راسته", "ماست", "زعفران", "روغن زیتون"],
+      "cooking_time": 55,
+      "popular_in": ["تهران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 601,
+      "category_id": 6,
+      "name": "خورشت قیمه",
+      "ingredients": ["لپه", "گوشت", "سیب زمینی", "رب گوجه"],
+      "cooking_time": 90,
+      "popular_in": ["ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 602,
+      "category_id": 6,
+      "name": "خورشت بامیه",
+      "ingredients": ["بامیه", "گوشت", "رب گوجه", "لیمو عمانی"],
+      "cooking_time": 100,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 603,
+      "category_id": 6,
+      "name": "خورشت آلو اسفناج",
+      "ingredients": ["آلو خشک", "اسفناج", "گوشت", "پیاز"],
+      "cooking_time": 90,
+      "popular_in": ["اصفهان"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 604,
+      "category_id": 6,
+      "name": "خورشت کنگر",
+      "ingredients": ["کنگر", "گوشت", "لیمو عمانی", "نعنا خشک"],
+      "cooking_time": 100,
+      "popular_in": ["غرب ایران"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 701,
+      "category_id": 7,
+      "name": "پاستا کاربونارا",
+      "ingredients": ["پاستا", "پنیر پارمزان", "تخم مرغ", "بیکن"],
+      "cooking_time": 25,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 702,
+      "category_id": 7,
+      "name": "پنه آلفردو",
+      "ingredients": ["پنه", "خامه", "پنیر پارمزان", "سیر"],
+      "cooking_time": 25,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 703,
+      "category_id": 7,
+      "name": "لازانیا",
+      "ingredients": [
+        "ورق لازانیا",
+        "گوشت چرخ کرده",
+        "پنیر موزارلا",
+        "سس بشامل"
+      ],
+      "cooking_time": 60,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 704,
+      "category_id": 7,
+      "name": "پاستا پستو",
+      "ingredients": ["پاستا", "پستو", "پنیر پارمزان", "سیر"],
+      "cooking_time": 25,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 801,
+      "category_id": 8,
+      "name": "سالاد سزار",
+      "ingredients": ["کاهو", "سس سزار", "پنیر پارمزان", "نان تست"],
+      "cooking_time": 15,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 802,
+      "category_id": 8,
+      "name": "سالاد یونانی",
+      "ingredients": ["خیار", "گوجه", "پنیر فتا", "زیتون"],
+      "cooking_time": 10,
+      "popular_in": ["یونان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 803,
+      "category_id": 8,
+      "name": "سالاد والدورف",
+      "ingredients": ["سیب", "گردو", "کرفس", "سس مایونز"],
+      "cooking_time": 15,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 804,
+      "category_id": 8,
+      "name": "سالاد کلم",
+      "ingredients": ["کلم", "هویج", "سس مایونز", "سرکه"],
+      "cooking_time": 15,
+      "popular_in": ["جهان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 901,
+      "category_id": 9,
+      "name": "ترامیسو",
+      "ingredients": [
+        "بیسکویت ساوویاردی",
+        "قهوه",
+        "پنیر ماسکارپونه",
+        "پودر کاکائو"
+      ],
+      "cooking_time": 180,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 902,
+      "category_id": 9,
+      "name": "پاناکوتا",
+      "ingredients": ["خامه", "شکر", "ژلاتین", "وانیل"],
+      "cooking_time": 240,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 903,
+      "category_id": 9,
+      "name": "چیزکیک",
+      "ingredients": ["پنیر خامه ای", "بیسکویت", "شکر", "توت"],
+      "cooking_time": 300,
+      "popular_in": ["اروپا"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 904,
+      "category_id": 9,
+      "name": "موس شکلات",
+      "ingredients": ["شکلات تلخ", "خامه", "تخم مرغ", "وانیل"],
+      "cooking_time": 180,
+      "popular_in": ["فرانسه"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 1001,
+      "category_id": 10,
+      "name": "آبگوشت بزباش",
+      "ingredients": ["گوشت", "نخود", "لوبیا سفید", "سیب زمینی"],
+      "cooking_time": 180,
+      "popular_in": ["آذربایجان"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 1002,
+      "category_id": 10,
+      "name": "کله جوش",
+      "ingredients": ["کشک", "گردو", "پیاز", "نعنا داغ"],
+      "cooking_time": 45,
+      "popular_in": ["اصفهان"],
+      "is_vegetarian": true
+    },
+    {
+      "id": 1003,
+      "category_id": 10,
+      "name": "کوفته تبریزی",
+      "ingredients": ["گوشت چرخ کرده", "برنج", "آلبالو خشک", "سبزی"],
+      "cooking_time": 120,
+      "popular_in": ["آذربایجان"],
+      "is_vegetarian": false
+    },
+    {
+      "id": 1004,
+      "category_id": 10,
+      "name": "اشکنه",
+      "ingredients": ["پیاز", "تخم مرغ", "روغن", "زردچوبه"],
+      "cooking_time": 30,
+      "popular_in": ["لرستان"],
+      "is_vegetarian": true
+    }
+  ]
+}
