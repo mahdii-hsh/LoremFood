@@ -66,8 +66,7 @@ export default function CategoryCard({ category }: { category: ITCategory }) {
   };
 
   return (
-    <div className="flex items-center  justify-center">
-      <div className="w-full ">
+      <div className="w-full h-full">
         <div className="flex justify-center w-full ">
           <div></div>
           <div className=" relative flex justify-center group cursor-pointer">
@@ -88,6 +87,5 @@ export default function CategoryCard({ category }: { category: ITCategory }) {
           </div>
         </div>
       </div>
-    </div>
   );
 }

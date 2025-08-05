@@ -6,6 +6,7 @@ export interface ITFood {
   cooking_time: number;
   popular_in: string[];
   is_vegetarian: boolean;
+  image : string
 }
 
 export interface ITCategory {

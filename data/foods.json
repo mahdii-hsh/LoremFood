@@ -7,196 +7,8 @@
       "ingredients": ["لوبیا قرمز", "سبزی قورمه", "گوشت گوسفند", "لیمو عمانی"],
       "cooking_time": 120,
       "popular_in": ["تمام ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 102,
-      "category_id": 1,
-      "name": "چلو کباب",
-      "ingredients": ["برنج", "گوشت گوساله", "زعفران", "کره"],
-      "cooking_time": 90,
-      "popular_in": ["تهران", "اصفهان"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 103,
-      "category_id": 1,
-      "name": "فسنجان",
-      "ingredients": ["گردو", "رب انار", "مرغ یا گوشت", "پیاز"],
-      "cooking_time": 150,
-      "popular_in": ["شمال ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 104,
-      "category_id": 1,
-      "name": "آش رشته",
-      "ingredients": ["رشته آش", "حبوبات", "سبزی آش", "کشک"],
-      "cooking_time": 180,
-      "popular_in": ["سراسر ایران"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 105,
-      "category_id": 1,
-      "name": "میرزا قاسمی",
-      "ingredients": ["بادمجان", "گوجه فرنگی", "سیر", "تخم مرغ"],
-      "cooking_time": 45,
-      "popular_in": ["گیلان"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 201,
-      "category_id": 2,
-      "name": "پیتزا",
-      "ingredients": ["خمیر پیتزا", "پنیر موزارلا", "سس گوجه", "قارچ"],
-      "cooking_time": 30,
-      "popular_in": ["سراسر جهان"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 202,
-      "category_id": 2,
-      "name": "همبرگر",
-      "ingredients": ["نان همبرگر", "گوشت چرخ کرده", "پنیر", "سبزیجات"],
-      "cooking_time": 15,
-      "popular_in": ["آمریکا", "اروپا"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 203,
-      "category_id": 2,
-      "name": "سیب زمینی سرخ کرده",
-      "ingredients": ["سیب زمینی", "نمک", "روغن"],
-      "cooking_time": 20,
-      "popular_in": ["جهان"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 204,
-      "category_id": 2,
-      "name": "ناتسو",
-      "ingredients": ["نان تست", "پنیر چدار", "سس گوجه"],
-      "cooking_time": 10,
-      "popular_in": ["آمریکا"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 205,
-      "category_id": 2,
-      "name": "هات داگ",
-      "ingredients": ["نان مخصوص", "سوسیس", "سس خردل", "پیاز"],
-      "cooking_time": 10,
-      "popular_in": ["آمریکا"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 301,
-      "category_id": 3,
-      "name": "سالاد تبوله",
-      "ingredients": ["بلغور", "جعفری", "نعنا", "گوجه فرنگی"],
-      "cooking_time": 20,
-      "popular_in": ["خاورمیانه"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 302,
-      "category_id": 3,
-      "name": "دلمه برگ مو",
-      "ingredients": ["برگ مو", "برنج", "عدس", "سبزیجات"],
-      "cooking_time": 90,
-      "popular_in": ["آذربایجان"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 303,
-      "category_id": 3,
-      "name": "فالافل",
-      "ingredients": ["نخود", "جعفری", "سیر", "ادویه"],
-      "cooking_time": 30,
-      "popular_in": ["خاورمیانه"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 304,
-      "category_id": 3,
-      "name": "رَتاتوی",
-      "ingredients": ["بادمجان", "کدو", "گوجه فرنگی", "سبزیجات معطر"],
-      "cooking_time": 60,
-      "popular_in": ["فرانسه"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 401,
-      "category_id": 4,
-      "name": "میگو پلو",
-      "ingredients": ["برنج", "میگو", "سبزیجات", "ادویه"],
-      "cooking_time": 60,
-      "popular_in": ["جنوب ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 402,
-      "category_id": 4,
-      "name": "قلیه ماهی",
-      "ingredients": ["ماهی", "تمر هندی", "سبزیجات معطر"],
-      "cooking_time": 60,
-      "popular_in": ["جنوب ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 403,
-      "category_id": 4,
-      "name": "سوشی",
-      "ingredients": ["ماهی خام", "برنج", "جلبک دریایی", "واسابی"],
-      "cooking_time": 40,
-      "popular_in": ["ژاپن"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 404,
-      "category_id": 4,
-      "name": "کیک ماهی",
-      "ingredients": ["ماهی سفید", "سیب زمینی", "پیاز", "تخم مرغ"],
-      "cooking_time": 50,
-      "popular_in": ["شمال ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 501,
-      "category_id": 5,
-      "name": "کباب بختیاری",
-      "ingredients": ["گوشت گوسفند", "مرغ", "پیاز", "ادویه مخصوص"],
-      "cooking_time": 45,
-      "popular_in": ["چهارمحال و بختیاری"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 502,
-      "category_id": 5,
-      "name": "جوجه کباب",
-      "ingredients": ["مرغ", "ماست", "زعفران", "روغن"],
-      "cooking_time": 40,
-      "popular_in": ["ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 503,
-      "category_id": 5,
-      "name": "کباب ترکی",
-      "ingredients": ["گوشت چرخ کرده", "پیاز", "فلفل", "ادویه"],
-      "cooking_time": 35,
-      "popular_in": ["ترکیه"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 504,
-      "category_id": 5,
-      "name": "کباب چنجه",
-      "ingredients": ["گوشت راسته", "ماست", "زعفران", "روغن زیتون"],
-      "cooking_time": 55,
-      "popular_in": ["تهران"],
-      "is_vegetarian": false
+      "is_vegetarian": false,
+      "image": "https://harnika.ir/wp-content/uploads/2022/08/ghorme-sabzi-min-1.jpg"
     },
     {
       "id": 601,
@@ -205,66 +17,8 @@
       "ingredients": ["لپه", "گوشت", "سیب زمینی", "رب گوجه"],
       "cooking_time": 90,
       "popular_in": ["ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 602,
-      "category_id": 6,
-      "name": "خورشت بامیه",
-      "ingredients": ["بامیه", "گوشت", "رب گوجه", "لیمو عمانی"],
-      "cooking_time": 100,
-      "popular_in": ["جنوب ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 603,
-      "category_id": 6,
-      "name": "خورشت آلو اسفناج",
-      "ingredients": ["آلو خشک", "اسفناج", "گوشت", "پیاز"],
-      "cooking_time": 90,
-      "popular_in": ["اصفهان"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 604,
-      "category_id": 6,
-      "name": "خورشت کنگر",
-      "ingredients": ["کنگر", "گوشت", "لیمو عمانی", "نعنا خشک"],
-      "cooking_time": 100,
-      "popular_in": ["غرب ایران"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 701,
-      "category_id": 7,
-      "name": "پاستا کاربونارا",
-      "ingredients": ["پاستا", "پنیر پارمزان", "تخم مرغ", "بیکن"],
-      "cooking_time": 25,
-      "popular_in": ["ایتالیا"],
-      "is_vegetarian": false
-    },
-    {
-      "id": 702,
-      "category_id": 7,
-      "name": "پنه آلفردو",
-      "ingredients": ["پنه", "خامه", "پنیر پارمزان", "سیر"],
-      "cooking_time": 25,
-      "popular_in": ["ایتالیا"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 703,
-      "category_id": 7,
-      "name": "لازانیا",
-      "ingredients": [
-        "ورق لازانیا",
-        "گوشت چرخ کرده",
-        "پنیر موزارلا",
-        "سس بشامل"
-      ],
-      "cooking_time": 60,
-      "popular_in": ["ایتالیا"],
-      "is_vegetarian": false
+      "is_vegetarian": false,
+      "image": "https://namakstan.ir/wp-content/uploads/2025/05/khoresh-gheyme.webp"
     },
     {
       "id": 704,
@@ -273,7 +27,28 @@
       "ingredients": ["پاستا", "پستو", "پنیر پارمزان", "سیر"],
       "cooking_time": 25,
       "popular_in": ["ایتالیا"],
-      "is_vegetarian": true
+      "is_vegetarian": true,
+      "image": "https://chishi.ir/wp-content/uploads/2023/01/pasta-pesto.jpg"
+    },
+    {
+      "id": 603,
+      "category_id": 6,
+      "name": "خورشت آلو اسفناج",
+      "ingredients": ["آلو خشک", "اسفناج", "گوشت", "پیاز"],
+      "cooking_time": 90,
+      "popular_in": ["اصفهان"],
+      "is_vegetarian": false,
+      "image": "https://ashpazbashii.com/wp-content/uploads/2022/04/Spinach-plum.jpg"
+    },
+    {
+      "id": 403,
+      "category_id": 4,
+      "name": "سوشی",
+      "ingredients": ["ماهی خام", "برنج", "جلبک دریایی", "واسابی"],
+      "cooking_time": 40,
+      "popular_in": ["ژاپن"],
+      "is_vegetarian": false,
+      "image": "https://blog.okala.com/wp-content/uploads/2023/09/sushi-0.jpg"
     },
     {
       "id": 801,
@@ -282,34 +57,150 @@
       "ingredients": ["کاهو", "سس سزار", "پنیر پارمزان", "نان تست"],
       "cooking_time": 15,
       "popular_in": ["آمریکا"],
-      "is_vegetarian": true
+      "is_vegetarian": true,
+      "image": "https://hipatugh.ir/wp-content/uploads/2020/04/salad-sezar-1.jpg"
     },
     {
-      "id": 802,
-      "category_id": 8,
-      "name": "سالاد یونانی",
-      "ingredients": ["خیار", "گوجه", "پنیر فتا", "زیتون"],
-      "cooking_time": 10,
-      "popular_in": ["یونان"],
-      "is_vegetarian": true
+      "id": 103,
+      "category_id": 1,
+      "name": "فسنجان",
+      "ingredients": ["گردو", "رب انار", "مرغ یا گوشت", "پیاز"],
+      "cooking_time": 150,
+      "popular_in": ["شمال ایران"],
+      "is_vegetarian": false,
+      "image": "https://blog.okcs.com/wp-content/uploads/2022/07/r22-min-1.jpg"
+    },
+
+    {
+      "id": 105,
+      "category_id": 1,
+      "name": "میرزا قاسمی",
+      "ingredients": ["بادمجان", "گوجه فرنگی", "سیر", "تخم مرغ"],
+      "cooking_time": 45,
+      "popular_in": ["گیلان"],
+      "is_vegetarian": true,
+      "image": "https://kermany.com/wp-content/uploads/2021/05/1-3.jpg"
     },
     {
-      "id": 803,
-      "category_id": 8,
-      "name": "سالاد والدورف",
-      "ingredients": ["سیب", "گردو", "کرفس", "سس مایونز"],
-      "cooking_time": 15,
-      "popular_in": ["آمریکا"],
-      "is_vegetarian": true
+      "id": 502,
+      "category_id": 5,
+      "name": "جوجه کباب",
+      "ingredients": ["مرغ", "ماست", "زعفران", "روغن"],
+      "cooking_time": 40,
+      "popular_in": ["ایران"],
+      "is_vegetarian": false,
+      "image": "https://yaldamedtour.com/images/content-image/2020/09/iranwatching-1548-1599083552-joje-kabab.jpg"
     },
     {
-      "id": 804,
-      "category_id": 8,
-      "name": "سالاد کلم",
-      "ingredients": ["کلم", "هویج", "سس مایونز", "سرکه"],
-      "cooking_time": 15,
+      "id": 201,
+      "category_id": 2,
+      "name": "پیتزا",
+      "ingredients": ["خمیر پیتزا", "پنیر موزارلا", "سس گوجه", "قارچ"],
+      "cooking_time": 30,
+      "popular_in": ["سراسر جهان"],
+      "is_vegetarian": true,
+      "image": "https://foodotto.com/wp-content/uploads/2020/06/%D8%B7%D8%B1%D8%B2-%D8%AA%D9%87%DB%8C%D9%87-%D9%BE%DB%8C%D8%AA%D8%B2%D8%A7-%D9%BE%D9%BE%D8%B1%D9%88%D9%86%DB%8C.jpg"
+    },
+    {
+      "id": 904,
+      "category_id": 9,
+      "name": "موس شکلات",
+      "ingredients": ["شکلات تلخ", "خامه", "تخم مرغ", "وانیل"],
+      "cooking_time": 180,
+      "popular_in": ["فرانسه"],
+      "is_vegetarian": true,
+      "image": "https://kalleh.com/book/wp-content/uploads/sites/2/2023/11/chocolate-mousse-recipe.jpg.webp"
+    },
+    {
+      "id": 401,
+      "category_id": 4,
+      "name": "میگو پلو",
+      "ingredients": ["برنج", "میگو", "سبزیجات", "ادویه"],
+      "cooking_time": 60,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false,
+      "image": "https://noktechi.ir/wp-content/uploads/2021/07/meygoo-polo.jpg"
+    },
+
+    {
+      "id": 203,
+      "category_id": 2,
+      "name": "سیب زمینی سرخ کرده",
+      "ingredients": ["سیب زمینی", "نمک", "روغن"],
+      "cooking_time": 20,
       "popular_in": ["جهان"],
-      "is_vegetarian": true
+      "is_vegetarian": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHhcF46uO8-Jhy-5BlNpDnNEkW9fXBoiSNug&s"
+    },
+    {
+      "id": 204,
+      "category_id": 2,
+      "name": "فلافل پیتا",
+      "ingredients": ["نان پیتا", "فلافل", "کاهو", "خیار", "سس تاهینی"],
+      "cooking_time": 12,
+      "popular_in": ["خاورمیانه", "اروپا"],
+      "is_vegetarian": true,
+      "image": "https://chishi.ir/wp-content/uploads/2024/03/falafel-paniri.webp"
+    },
+    {
+      "id": 1002,
+      "category_id": 10,
+      "name": "کله جوش",
+      "ingredients": ["کشک", "گردو", "پیاز", "نعنا داغ"],
+      "cooking_time": 45,
+      "popular_in": ["اصفهان"],
+      "is_vegetarian": true,
+      "image": "https://foodotto.com/wp-content/uploads/2020/09/%D8%B7%D8%B1%D8%B2-%D8%AA%D9%87%DB%8C%D9%87-%DA%A9%D9%84%D9%87-%D8%AC%D9%88%D8%B4.jpg"
+    },
+    {
+      "id": 205,
+      "category_id": 2,
+      "name": "هات داگ",
+      "ingredients": ["نان مخصوص", "سوسیس", "سس خردل", "پیاز"],
+      "cooking_time": 10,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": false,
+      "image": "https://iranipokht.ir/wp-content/uploads/2025/06/how-to-prepare-simple-hot-dogs-logo.jpg"
+    },
+    {
+      "id": 301,
+      "category_id": 3,
+      "name": "سالاد تبوله",
+      "ingredients": ["بلغور", "جعفری", "نعنا", "گوجه فرنگی"],
+      "cooking_time": 20,
+      "popular_in": ["خاورمیانه"],
+      "is_vegetarian": true,
+      "image": "https://chishi.ir/wp-content/uploads/2020/06/salad-taboole.jpg"
+    },
+    {
+      "id": 202,
+      "category_id": 2,
+      "name": "همبرگر",
+      "ingredients": ["نان همبرگر", "گوشت چرخ کرده", "پنیر", "سبزیجات"],
+      "cooking_time": 15,
+      "popular_in": ["آمریکا", "اروپا"],
+      "is_vegetarian": false,
+      "image": "https://www.jowhareh.com/images/Jowhareh/galleries/poster_f77561e8-bde3-4920-88b3-beafa8e8d126.jpeg"
+    },
+    {
+      "id": 302,
+      "category_id": 3,
+      "name": "دلمه برگ مو",
+      "ingredients": ["برگ مو", "برنج", "عدس", "سبزیجات"],
+      "cooking_time": 90,
+      "popular_in": ["آذربایجان"],
+      "is_vegetarian": true,
+      "image": "https://noktechi.ir/wp-content/uploads/2020/06/dolme-barg-mo.jpg"
+    },
+    {
+      "id": 701,
+      "category_id": 7,
+      "name": "پاستا کاربونارا",
+      "ingredients": ["پاستا", "پنیر پارمزان", "تخم مرغ", "بیکن"],
+      "cooking_time": 25,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": false,
+      "image": "https://daewoo.ir/wp-content/uploads/2023/12/%D8%B9%DA%A9%D8%B3-8.jpg"
     },
     {
       "id": 901,
@@ -323,34 +214,8 @@
       ],
       "cooking_time": 180,
       "popular_in": ["ایتالیا"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 902,
-      "category_id": 9,
-      "name": "پاناکوتا",
-      "ingredients": ["خامه", "شکر", "ژلاتین", "وانیل"],
-      "cooking_time": 240,
-      "popular_in": ["ایتالیا"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 903,
-      "category_id": 9,
-      "name": "چیزکیک",
-      "ingredients": ["پنیر خامه ای", "بیسکویت", "شکر", "توت"],
-      "cooking_time": 300,
-      "popular_in": ["اروپا"],
-      "is_vegetarian": true
-    },
-    {
-      "id": 904,
-      "category_id": 9,
-      "name": "موس شکلات",
-      "ingredients": ["شکلات تلخ", "خامه", "تخم مرغ", "وانیل"],
-      "cooking_time": 180,
-      "popular_in": ["فرانسه"],
-      "is_vegetarian": true
+      "is_vegetarian": true,
+      "image": "https://sirafcoffee.ir/wp-content/uploads/2023/07/%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AA%D8%B1%D8%A7%D9%85%DB%8C%D8%B3%D9%88-1.jpg"
     },
     {
       "id": 1001,
@@ -359,16 +224,49 @@
       "ingredients": ["گوشت", "نخود", "لوبیا سفید", "سیب زمینی"],
       "cooking_time": 180,
       "popular_in": ["آذربایجان"],
-      "is_vegetarian": false
+      "is_vegetarian": false,
+      "image": "https://chishi.ir/wp-content/uploads/2020/07/abgousht-bozbash.jpg"
     },
     {
-      "id": 1002,
-      "category_id": 10,
-      "name": "کله جوش",
-      "ingredients": ["کشک", "گردو", "پیاز", "نعنا داغ"],
-      "cooking_time": 45,
-      "popular_in": ["اصفهان"],
-      "is_vegetarian": true
+      "id": 303,
+      "category_id": 3,
+      "name": "فلافل",
+      "ingredients": ["نخود", "جعفری", "سیر", "ادویه"],
+      "cooking_time": 30,
+      "popular_in": ["خاورمیانه"],
+      "is_vegetarian": true,
+      "image": "https://dorkam.com/wp-content/uploads/2020/03/84099930_2675324815896875_905631947299002445_n-1018x800.jpg"
+    },
+    {
+      "id": 304,
+      "category_id": 3,
+      "name": "رَتاتوی",
+      "ingredients": ["بادمجان", "کدو", "گوجه فرنگی", "سبزیجات معطر"],
+      "cooking_time": 60,
+      "popular_in": ["فرانسه"],
+      "is_vegetarian": true,
+      "image": "https://jadvalyab.ir/blog/wp-content/uploads/2022/09/RFO-1400x919-Ratatouille-9e071b16-522a-40f0-88b8-f1b98be2b072-0-1400x919-1.jpg"
+    },
+
+    {
+      "id": 402,
+      "category_id": 4,
+      "name": "قلیه ماهی",
+      "ingredients": ["ماهی", "تمر هندی", "سبزیجات معطر"],
+      "cooking_time": 60,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false,
+      "image": "https://noktechi.ir/wp-content/uploads/2021/06/ghaliye-mahi.jpg"
+    },
+    {
+      "id": 104,
+      "category_id": 1,
+      "name": "آش رشته",
+      "ingredients": ["رشته آش", "حبوبات", "سبزی آش", "کشک"],
+      "cooking_time": 180,
+      "popular_in": ["سراسر ایران"],
+      "is_vegetarian": true,
+      "image": "https://vigiha.ir/wp-content/uploads/2021/03/%D8%B1%D9%88%D8%B4-%D9%BE%D8%AE%D8%AA-%D8%A2%D8%B4-%D8%B1%D8%B4%D8%AA%D9%87-%D9%85%D8%AC%D9%84%D8%B3%DB%8C0.jpg"
     },
     {
       "id": 1003,
@@ -377,8 +275,162 @@
       "ingredients": ["گوشت چرخ کرده", "برنج", "آلبالو خشک", "سبزی"],
       "cooking_time": 120,
       "popular_in": ["آذربایجان"],
-      "is_vegetarian": false
+      "is_vegetarian": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSyb-Bn3gZKFlHWoTkBvA5oCKgw7XdLumvA&s"
     },
+    {
+      "id": 404,
+      "category_id": 4,
+      "name": "کیک ماهی",
+      "ingredients": ["ماهی سفید", "سیب زمینی", "پیاز", "تخم مرغ"],
+      "cooking_time": 50,
+      "popular_in": ["شمال ایران"],
+      "is_vegetarian": false,
+      "image": "https://kalleh.com/book/wp-content/uploads/sites/2/2021/01/%DA%A9%DB%8C%DA%A9-%D9%85%D8%A7%D9%87%DB%8C-%D8%B3%D8%A7%D9%84%D9%85%D9%88%D9%86.png.webp"
+    },
+    {
+      "id": 501,
+      "category_id": 5,
+      "name": "کباب بختیاری",
+      "ingredients": ["گوشت گوسفند", "مرغ", "پیاز", "ادویه مخصوص"],
+      "cooking_time": 45,
+      "popular_in": ["چهارمحال و بختیاری"],
+      "is_vegetarian": false,
+      "image": "https://files.namnak.com/users/kk/aup/201905/500_pics/%DA%A9%D8%A8%D8%A7%D8%A8-%D8%A8%D8%AE%D8%AA%DB%8C%D8%A7%D8%B1%DB%8C.webp"
+    },
+
+    {
+      "id": 503,
+      "category_id": 5,
+      "name": "کباب ترکی",
+      "ingredients": ["گوشت چرخ کرده", "پیاز", "فلفل", "ادویه"],
+      "cooking_time": 35,
+      "popular_in": ["ترکیه"],
+      "is_vegetarian": false,
+      "image": "https://www.alamto.com/wp-content/uploads/2023/05/CER402XWAAETJVm.jpg"
+    },
+    {
+      "id": 504,
+      "category_id": 5,
+      "name": "کباب چنجه",
+      "ingredients": ["گوشت راسته", "ماست", "زعفران", "روغن زیتون"],
+      "cooking_time": 55,
+      "popular_in": ["تهران"],
+      "is_vegetarian": false,
+      "image": "https://chishi.ir/wp-content/uploads/2020/07/kabab-chenje.jpg"
+    },
+
+    {
+      "id": 602,
+      "category_id": 6,
+      "name": "خورشت بامیه",
+      "ingredients": ["بامیه", "گوشت", "رب گوجه", "لیمو عمانی"],
+      "cooking_time": 100,
+      "popular_in": ["جنوب ایران"],
+      "is_vegetarian": false,
+      "image": "https://noktechi.ir/wp-content/uploads/2021/07/khoresh-bamiye.jpg"
+    },
+    {
+      "id": 803,
+      "category_id": 8,
+      "name": "سالاد والدورف",
+      "ingredients": ["سیب", "گردو", "کرفس", "سس مایونز"],
+      "cooking_time": 15,
+      "popular_in": ["آمریکا"],
+      "is_vegetarian": true,
+      "image": "https://sibita.com/mag/wp-content/uploads/2020/09/%D8%B3%D8%A7%D9%84%D8%A7%D8%AF-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%81.jpg"
+    },
+    {
+      "id": 903,
+      "category_id": 9,
+      "name": "چیزکیک",
+      "ingredients": ["پنیر خامه ای", "بیسکویت", "شکر", "توت"],
+      "cooking_time": 300,
+      "popular_in": ["اروپا"],
+      "is_vegetarian": true,
+      "image": "https://www.natli.ir/upload/attach/images/lg/1580219770_cheese-cake.jpg"
+    },
+    {
+      "id": 604,
+      "category_id": 6,
+      "name": "خورشت کنگر",
+      "ingredients": ["کنگر", "گوشت", "لیمو عمانی", "نعنا خشک"],
+      "cooking_time": 100,
+      "popular_in": ["غرب ایران"],
+      "is_vegetarian": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ0KbNc9ezSOdVftX77mu2swco_Wv5ukaXoQ&s"
+    },
+
+    {
+      "id": 702,
+      "category_id": 7,
+      "name": "پنه آلفردو",
+      "ingredients": ["پنه", "خامه", "پنیر پارمزان", "سیر"],
+      "cooking_time": 25,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true,
+      "image": "https://noktechi.ir/wp-content/uploads/2020/05/past-pane-alferedo.jpg"
+    },
+    {
+      "id": 703,
+      "category_id": 7,
+      "name": "لازانیا",
+      "ingredients": [
+        "ورق لازانیا",
+        "گوشت چرخ کرده",
+        "پنیر موزارلا",
+        "سس بشامل"
+      ],
+      "cooking_time": 60,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": false,
+      "image": "https://namakstan.ir/wp-content/uploads/2025/05/lazania.webp"
+    },
+
+    {
+      "id": 102,
+      "category_id": 1,
+      "name": "چلو کباب",
+      "ingredients": ["برنج", "گوشت گوساله", "زعفران", "کره"],
+      "cooking_time": 90,
+      "popular_in": ["تهران", "اصفهان"],
+      "is_vegetarian": false,
+      "image": "https://magerta.ir/wp-content/uploads/2024/10/shah-abbasi-chelo-kebab-recipe-cover-1024x819.webp"
+    },
+
+    {
+      "id": 802,
+      "category_id": 8,
+      "name": "سالاد یونانی",
+      "ingredients": ["خیار", "گوجه", "پنیر فتا", "زیتون"],
+      "cooking_time": 10,
+      "popular_in": ["یونان"],
+      "is_vegetarian": true,
+      "image": "https://noktechi.ir/wp-content/uploads/2021/12/salad-uonani.jpg"
+    },
+
+    {
+      "id": 804,
+      "category_id": 8,
+      "name": "سالاد کلم",
+      "ingredients": ["کلم", "هویج", "سس مایونز", "سرکه"],
+      "cooking_time": 15,
+      "popular_in": ["جهان"],
+      "is_vegetarian": true,
+      "image": "https://chishi.ir/wp-content/uploads/2020/05/salad-kalam-sefid.jpg"
+    },
+
+    {
+      "id": 902,
+      "category_id": 9,
+      "name": "پاناکوتا",
+      "ingredients": ["خامه", "شکر", "ژلاتین", "وانیل"],
+      "cooking_time": 240,
+      "popular_in": ["ایتالیا"],
+      "is_vegetarian": true,
+      "image": "https://blog.mashashpaz.com/wp-content/uploads/2025/02/panna-cotta-780x470.jpg"
+    },
+
     {
       "id": 1004,
       "category_id": 10,
@@ -386,7 +438,8 @@
       "ingredients": ["پیاز", "تخم مرغ", "روغن", "زردچوبه"],
       "cooking_time": 30,
       "popular_in": ["لرستان"],
-      "is_vegetarian": true
+      "is_vegetarian": true,
+      "image": "https://kalleh.com/book/wp-content/uploads/sites/2/2019/05/eshkene.jpg.webp"
     }
   ]
 }
