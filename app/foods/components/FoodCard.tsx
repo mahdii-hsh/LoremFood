@@ -1,6 +1,8 @@
 import { ITFood } from "@/types/food";
 import { MoreCircle, Timer1 } from "iconsax-react";
 import React from "react";
+import Skeleton from "react-loading-skeleton";
+import ImageFoodCard from "./ImageFoodCard";
 
 export default function FoodCard({
   food,
@@ -55,18 +57,15 @@ export default function FoodCard({
     return str;
   };
   return (
-    <div className="flex items-center w-full h-full justify-center bg-slate-50">
+    <div className="flex items-center w-full h-full justify-center  rounded-t-2xl">
       <div className="w-full h-full rounded-2xl shadow-lg relative text-slate-800 hover:rotate-2 duration-300 delay-150">
         {/* label of category */}
-        <div className="bg-red-100 text-red-400 absolute top-4 start-4 rounded-lg p-1 text-xs">
+        <div className="z-10 bg-red-100 text-red-400 absolute top-4 start-4 rounded-lg p-1 text-xs">
           {categoryName}
         </div>
 
-        <div className="bg-amber-50 h-48 sm:h-52 2xl:h-56 rounded-t-2xl">
-          <img
-            src={food.image}
-            className="w-full h-full object-cover rounded-t-2xl"
-          />
+        <div className=" h-48 sm:h-52 2xl:h-56 rounded-t-2xl">
+          <ImageFoodCard imgAlt={food.name} imgSrc={food.image} />
         </div>
         <div className="flex justify-between w-full p-4 px-6 sm:px-0 sm:p-3 lg:p-4">
           <h2 className="">{food.name}</h2>

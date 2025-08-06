@@ -40,13 +40,15 @@ export default function Navbar() {
       <div className="grid grid-cols-12 bg-amber-50 h-full text-slate-800 rounded-2xl">
         <div className="col-span-5 sm:col-span-4 lg:col-span-3 flex items-center justify-start lg:justify-center ps-5 sm:ps-10 lg:ps-0 gap-x-1">
           <TextalignJustifycenter className="size-8 p-1 rounded lg:hidden 2xl:size-10   2xl:p-2 stroke-slate-800 cursor-pointer hover:bg-orange-100" />
-          <h1 className="font-bold text-3xl relative">
-            لورم
-            <span className="text-red-400"> فوود</span>
-          </h1>
+          <Link href="/">
+            <h1 className="font-bold text-3xl relative">
+              لورم
+              <span className="text-red-400"> فوود</span>
+            </h1>
+          </Link>
         </div>
         <div className="hidden lg:col-span-5 lg:flex items-center text-lg justify-center lg:gap-x-2">
-          <Link href="foods" className="hover:text-slate-600 cursor-pointer">
+          <Link href="/foods" className="hover:text-slate-600 cursor-pointer">
             غذاها
           </Link>
           <div>|</div>
