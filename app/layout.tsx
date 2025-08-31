@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
+import { Provider } from "react-redux";
+import { store } from "@/state/store";
+import StoreProvider from "@/state/StoreProvider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl">
       <body>
-        <Navbar />
-        {children}
+        <StoreProvider>
+          {children}
+        </StoreProvider>
       </body>
     </html>
   );

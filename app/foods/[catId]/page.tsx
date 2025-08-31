@@ -20,7 +20,7 @@ export default async function SpecialCategoryFoodsPage({
   }
 
   const { foods, categoryName }: { foods: ITFood[]; categoryName: string } =
-    await getSpecialFoods();    
+    await getSpecialFoods();
   return (
     <>
       {foods.map((food: ITFood) => (

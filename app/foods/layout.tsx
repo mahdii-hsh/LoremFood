@@ -1,16 +1,14 @@
 import { ITCategory, ITFood } from "@/types/food";
 import CategoryCard from "./components/CategoryCard";
-import { getTotalFoodsAndCategories } from "./page";
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
-import Link from "next/link";
+import { getTotalCategories } from "./page";
 
 export default async function FoodLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const { categories }: { categories: ITCategory[] } =
-    await getTotalFoodsAndCategories();
+  const categories : ITCategory[] | undefined = await getTotalCategories();
+
   return (
     <div className="">
       <div className="grid grid-cols-12 relative">
